@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9A790F3D33C48519F5687F9 /* ScottyDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4372B458AC2C4064A57C1183 /* ScottyDeliveryApp.swift */; };
+		CB50C99671714610A3BE23E9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7223C16339E645C884DBD8B2 /* Colors.swift */; };
+		F4C2281AA7D84FAC95BF61C0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3385FAE171A0409D990C84F9 /* Models.swift */; };
+		4711ACD327FB42C584ED987D /* ShadcnComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23027973CCAC439FAC2A86D3 /* ShadcnComponents.swift */; };
+		9FC2852A4C194F9CB6C2DF64 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB7E24EA7B4FC4A0837C50 /* AuthService.swift */; };
+		8BB08AA20B35495BB621A273 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00CF53E2A34071BC9D3A77 /* APIClient.swift */; };
+		95C4A7078B7E4A0D8BFAB639 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E9F9BA8E9418AA188DD99 /* CartManager.swift */; };
+		21D1F85C8AF34D0CB0A10FD7 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12136ACA41A427DADEF5D7B /* ExploreView.swift */; };
+		92699CB0C7FB4CA6867557B2 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC8821B23D4A2A9897139B /* RestaurantDetailView.swift */; };
+		613DD024D9724E208A7CB74E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D272A959FA49BBB8E96704 /* CartView.swift */; };
+		739BEB3C9A85448FB3A0E339 /* LiveTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683340A912EE435497F50939 /* LiveTrackingView.swift */; };
+		62CAC9D46F9943D3885B7FD5 /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA7651F73040B5AA41A37B /* OrderHistoryView.swift */; };
+		5AF2216F6CB5486EB9BF422E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7DCD1499764A1DA4D91644 /* ProfileView.swift */; };
+		3C64D15AA575483DB66375DA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327698875D7540919AE8D1B1 /* MainTabView.swift */; };
+		5180F68354214DECA5C1061F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6B31EA37643C4A7AA9254 /* WelcomeView.swift */; };
+		F63C4692CA054827B5948CA9 /* OrderConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A862B9A62D444CEC9271ADC1 /* OrderConfirmationView.swift */; };
+		AA02A77C74D84D1BA0A8F31C /* DeliveryFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D7E55B634379A0D4C10 /* DeliveryFlowView.swift */; };
+		C04ACB6CB9CD498C83A1ACE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050BAAC25B6E4AD59D39C421 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EEB5667C43949CEB137AEB7 /* ScottyDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScottyDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4372B458AC2C4064A57C1183 /* ScottyDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScottyDeliveryApp.swift"; sourceTree = "<group>"; };
+		7223C16339E645C884DBD8B2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Colors.swift"; path = "Theme/Colors.swift"; sourceTree = "<group>"; };
+		3385FAE171A0409D990C84F9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Models.swift"; path = "Models/Models.swift"; sourceTree = "<group>"; };
+		23027973CCAC439FAC2A86D3 /* ShadcnComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ShadcnComponents.swift"; path = "Views/Components/ShadcnComponents.swift"; sourceTree = "<group>"; };
+		72EB7E24EA7B4FC4A0837C50 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AuthService.swift"; path = "Services/AuthService.swift"; sourceTree = "<group>"; };
+		0D00CF53E2A34071BC9D3A77 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "APIClient.swift"; path = "Services/APIClient.swift"; sourceTree = "<group>"; };
+		F85E9F9BA8E9418AA188DD99 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CartManager.swift"; path = "Services/CartManager.swift"; sourceTree = "<group>"; };
+		D12136ACA41A427DADEF5D7B /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExploreView.swift"; path = "Views/Explore/ExploreView.swift"; sourceTree = "<group>"; };
+		42EC8821B23D4A2A9897139B /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RestaurantDetailView.swift"; path = "Views/Explore/RestaurantDetailView.swift"; sourceTree = "<group>"; };
+		60D272A959FA49BBB8E96704 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CartView.swift"; path = "Views/Cart/CartView.swift"; sourceTree = "<group>"; };
+		683340A912EE435497F50939 /* LiveTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiveTrackingView.swift"; path = "Views/Tracking/LiveTrackingView.swift"; sourceTree = "<group>"; };
+		D3DA7651F73040B5AA41A37B /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OrderHistoryView.swift"; path = "Views/Orders/OrderHistoryView.swift"; sourceTree = "<group>"; };
+		7F7DCD1499764A1DA4D91644 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ProfileView.swift"; path = "Views/Profile/ProfileView.swift"; sourceTree = "<group>"; };
+		327698875D7540919AE8D1B1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MainTabView.swift"; path = "Views/MainTabView.swift"; sourceTree = "<group>"; };
+		0FA6B31EA37643C4A7AA9254 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WelcomeView.swift"; path = "Views/Onboarding/WelcomeView.swift"; sourceTree = "<group>"; };
+		A862B9A62D444CEC9271ADC1 /* OrderConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OrderConfirmationView.swift"; path = "Views/Orders/OrderConfirmationView.swift"; sourceTree = "<group>"; };
+		24B1D7E55B634379A0D4C10 /* DeliveryFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DeliveryFlowView.swift"; path = "Views/DeliveryFlowView.swift"; sourceTree = "<group>"; };
+		050BAAC25B6E4AD59D39C421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E96A34003C1D495680DBB455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B13028342846A68A590718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDE007A127E4E509069FD67 = {
+			isa = PBXGroup;
+			children = (
+				442F97931A9745E1A8D1DB34 /* ScottyDelivery */,
+				8E4BB69B6C80482F810B7CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4BB69B6C80482F810B7CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EEB5667C43949CEB137AEB7 /* ScottyDelivery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		442F97931A9745E1A8D1DB34 /* ScottyDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				4372B458AC2C4064A57C1183 /* ScottyDeliveryApp.swift */,
+				7223C16339E645C884DBD8B2 /* Colors.swift */,
+				3385FAE171A0409D990C84F9 /* Models.swift */,
+				23027973CCAC439FAC2A86D3 /* ShadcnComponents.swift */,
+				72EB7E24EA7B4FC4A0837C50 /* AuthService.swift */,
+				0D00CF53E2A34071BC9D3A77 /* APIClient.swift */,
+				F85E9F9BA8E9418AA188DD99 /* CartManager.swift */,
+				D12136ACA41A427DADEF5D7B /* ExploreView.swift */,
+				42EC8821B23D4A2A9897139B /* RestaurantDetailView.swift */,
+				60D272A959FA49BBB8E96704 /* CartView.swift */,
+				683340A912EE435497F50939 /* LiveTrackingView.swift */,
+				D3DA7651F73040B5AA41A37B /* OrderHistoryView.swift */,
+				7F7DCD1499764A1DA4D91644 /* ProfileView.swift */,
+				327698875D7540919AE8D1B1 /* MainTabView.swift */,
+				0FA6B31EA37643C4A7AA9254 /* WelcomeView.swift */,
+				A862B9A62D444CEC9271ADC1 /* OrderConfirmationView.swift */,
+				24B1D7E55B634379A0D4C10 /* DeliveryFlowView.swift */,
+				050BAAC25B6E4AD59D39C421 /* Assets.xcassets */,
+				E96A34003C1D495680DBB455 /* Info.plist */,
+			);
+			path = ScottyDelivery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE11E0F42894986B7896C15 /* ScottyDelivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96B090D426142ABA43791B2 /* Build configuration list for PBXNativeTarget "ScottyDelivery" */;
+			buildPhases = (
+				7C280F54532D429B9F953A7B /* Sources */,
+				F2B13028342846A68A590718 /* Frameworks */,
+				D5A249BD66E648F997B5D9DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScottyDelivery;
+			productName = ScottyDelivery;
+			productReference = 7EEB5667C43949CEB137AEB7 /* ScottyDelivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6983972D9F418EB550D357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BDE11E0F42894986B7896C15 = {
+						CreatedOnToolsVersion = 15.0;
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57AF4323287A480F871C7216 /* Build configuration list for PBXProject "ScottyDelivery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDE007A127E4E509069FD67;
+			productRefGroup = 8E4BB69B6C80482F810B7CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE11E0F42894986B7896C15 /* ScottyDelivery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A249BD66E648F997B5D9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04ACB6CB9CD498C83A1ACE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C280F54532D429B9F953A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A790F3D33C48519F5687F9 /* ScottyDeliveryApp.swift in Sources */,
+				CB50C99671714610A3BE23E9 /* Colors.swift in Sources */,
+				F4C2281AA7D84FAC95BF61C0 /* Models.swift in Sources */,
+				4711ACD327FB42C584ED987D /* ShadcnComponents.swift in Sources */,
+				9FC2852A4C194F9CB6C2DF64 /* AuthService.swift in Sources */,
+				8BB08AA20B35495BB621A273 /* APIClient.swift in Sources */,
+				95C4A7078B7E4A0D8BFAB639 /* CartManager.swift in Sources */,
+				21D1F85C8AF34D0CB0A10FD7 /* ExploreView.swift in Sources */,
+				92699CB0C7FB4CA6867557B2 /* RestaurantDetailView.swift in Sources */,
+				613DD024D9724E208A7CB74E /* CartView.swift in Sources */,
+				739BEB3C9A85448FB3A0E339 /* LiveTrackingView.swift in Sources */,
+				62CAC9D46F9943D3885B7FD5 /* OrderHistoryView.swift in Sources */,
+				5AF2216F6CB5486EB9BF422E /* ProfileView.swift in Sources */,
+				3C64D15AA575483DB66375DA /* MainTabView.swift in Sources */,
+				5180F68354214DECA5C1061F /* WelcomeView.swift in Sources */,
+				F63C4692CA054827B5948CA9 /* OrderConfirmationView.swift in Sources */,
+				AA02A77C74D84D1BA0A8F31C /* DeliveryFlowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		073234A150674279B593CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2941098616749B7BBBA3EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F45C6490DF4124AD023302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ScottyDelivery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.scottylabs.ScottyDelivery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		EDB42C64200A4DB48A047F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ScottyDelivery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.scottylabs.ScottyDelivery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57AF4323287A480F871C7216 /* Build configuration list for PBXProject "ScottyDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073234A150674279B593CA6D /* Debug */,
+				C2941098616749B7BBBA3EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96B090D426142ABA43791B2 /* Build configuration list for PBXNativeTarget "ScottyDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F45C6490DF4124AD023302 /* Debug */,
+				EDB42C64200A4DB48A047F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 5B6983972D9F418EB550D357 /* Project object */;
+}

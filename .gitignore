@@ -1,0 +1,19 @@
+# Supplemental repositories and reference material
+/scottylabs-goldador/
+/scottylabs-github-wiki/
+/scottylabs-wiki/
+/scottystack-wiki/
+/scotty-delivery-repo/
+
+# Local editor and agent configuration
+/.agents/
+/.mcp.json
+/.vscode/mcp.json
+
+# macOS and Xcode-generated files
+.DS_Store
+DerivedData/
+**/xcuserdata/
+**/*.xcuserstate
+build/
+**/.swiftpm/

@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "filename": "scotty_resting.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "filename": "scotty_resting@2x.png",
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "filename": "scotty_resting@3x.png",
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

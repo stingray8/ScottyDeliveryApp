@@ -1,0 +1,26 @@
+// swift-tools-version: 5.9
+import PackageDescription
+
+let package = Package(
+    name: "ScottyDelivery",
+    platforms: [
+        .iOS(.v17)
+    ],
+    products: [
+        .library(
+            name: "ScottyDeliveryCore",
+            targets: ["ScottyDeliveryCore"]
+        )
+    ],
+    targets: [
+        .target(
+            name: "ScottyDeliveryCore",
+            path: "ScottyDelivery",
+            exclude: [
+                "Info.plist",
+                "Assets.xcassets"
+            ]
+        )
+    ]
+)
+
