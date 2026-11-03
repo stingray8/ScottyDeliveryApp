@@ -7,3 +7,7 @@ public struct MainTabView: View {
         ScottyDeliveryFlowView()
     }
 }
+
+#Preview("iPhone 17", traits: .fixedLayout(width: 402, height: 874)) {
+    MainTabView()
+}
